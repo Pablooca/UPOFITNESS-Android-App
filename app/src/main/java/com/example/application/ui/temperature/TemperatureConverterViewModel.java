@@ -16,7 +16,7 @@ public class TemperatureConverterViewModel extends ViewModel {
         if (from.equals("Kelvin") && to.equals("Celsius")) convertedTemp = temp - 273.15;
         if (from.equals("Kelvin") && to.equals("Fahrenheit")) convertedTemp = (temp - 273.15) * 9/5 + 32;
 
-        result.setValue("Resultado: " + convertedTemp);
+        result.setValue("Result: " + convertedTemp);
     }
 
     public LiveData<String> getResult() {
