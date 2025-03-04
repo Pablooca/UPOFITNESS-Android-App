@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.equations.EquationSolverFragment"
+    android:layout_marginTop="100dp">
+
+    <EditText
+        android:id="@+id/coefA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coeficiente A"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/coefB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coeficiente B"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/checkBoxQuadratic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ecuación de segundo grado" />
+
+    <EditText
+        android:id="@+id/coefC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coeficiente C"
+        android:inputType="numberDecimal"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/solveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resolver" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+</LinearLayout>

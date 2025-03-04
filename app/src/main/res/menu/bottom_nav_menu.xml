@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_calculator"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Calculadora" />
+    <item
+        android:id="@+id/nav_equation_solver"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Ecuaciones" />
+    <item
+        android:id="@+id/nav_temperature_converter"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Temperatura" />
+</menu>
