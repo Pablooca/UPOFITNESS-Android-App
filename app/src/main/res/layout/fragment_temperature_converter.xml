@@ -13,8 +13,8 @@
         android:id="@+id/inputTemp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese la temperatura"
-        android:inputType="numberDecimal" />
+        android:hint="Introduce the temperature"
+        android:inputType="numberSigned" />
 
     <Spinner
         android:id="@+id/unitFrom"
@@ -30,13 +30,13 @@
         android:id="@+id/convertButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Convertir" />
+        android:text="Convert" />
 
     <TextView
         android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Resultado"
+        android:text="Result"
         android:textSize="18sp"
         android:padding="8dp" />
 

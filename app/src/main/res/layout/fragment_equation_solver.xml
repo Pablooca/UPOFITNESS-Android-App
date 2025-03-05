@@ -13,41 +13,41 @@
         android:id="@+id/coefA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Coeficiente A"
-        android:inputType="numberDecimal" />
+        android:hint="A Coeficient"
+        android:inputType="numberSigned" />
 
     <EditText
         android:id="@+id/coefB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Coeficiente B"
-        android:inputType="numberDecimal" />
+        android:hint="B Coeficient"
+        android:inputType="numberSigned" />
 
     <CheckBox
         android:id="@+id/checkBoxQuadratic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ecuación de segundo grado" />
+        android:text="Cuadratic Equation" />
 
     <EditText
         android:id="@+id/coefC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Coeficiente C"
-        android:inputType="numberDecimal"
+        android:hint="C Coeficient"
+        android:inputType="numberSigned"
         android:visibility="gone" />
 
     <Button
         android:id="@+id/solveButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Resolver" />
+        android:text="Solve" />
 
     <TextView
         android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Resultado"
+        android:text="Result"
         android:textSize="18sp"
         android:padding="8dp" />
 
